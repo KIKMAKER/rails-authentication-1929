@@ -1,9 +1,13 @@
-<h1>Let's Learn Authentication</h1>
+<div class="container">
 
-<h2>We use devise here</h2>
-<p>Want to learn more?</p>
+  <h1>Let's Learn Authentication</h1>
 
-<% if user_signed_in? %>
-  <%= current_user.email %>
-  <p>Welcome <%= current_user.first_name %></p>
-<% end %>
+
+  <h2>We use devise here</h2>
+  <p>Want to learn more?</p>
+
+  <% if user_signed_in? %>
+    <%= current_user.email %>
+    <p>Welcome <%= current_user.first_name %>!!!!</p>
+  <% end %>
+</div>
